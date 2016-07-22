@@ -42,8 +42,6 @@ Whoa! It's so much shorter! Even though this is just a tiny piece of code, let's
 
 On the array `evens` we call the method `forEach` by typing `evens.forEach`. The `.` tells JavaScript that we're going to access some _property_ of the `evens` array. This property, `forEach`, happens to be a function, which, as we know, we call with parentheses around its arguments. `forEach` requires one argument, a function.
 
-Whaaaaat? Did we read that right? We can pass a _function_ as an argument? You bet your boots we can!
-
 That function, in turn, accepts up to three arguments: the current element in the array, the index of that element in the array, and the array itself.
 
 Let's rewrite the function and step through it with the debugger to get a feel for its arguments.
