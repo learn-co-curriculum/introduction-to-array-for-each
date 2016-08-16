@@ -33,8 +33,8 @@ This method lets us iterate over every element of the array directly, without wr
 ``` javascript
 var evens = [0, 2, 4, 6, 8, 10]
 
-evens.forEach(even => {
-  console.log(`${even} is not odd!`)
+evens.forEach(evens => {
+  console.log(`${evens} is not odd!`)
 })
 ```
 
@@ -114,3 +114,5 @@ If you've been following along in `index.js`, you should now be able to run `lea
 ## Resources
 
 - [`Array.prototype.forEach()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/introduction-to-array-for-each'>Array.forEach</a> on Learn.co and start learning to code for free.</p>
