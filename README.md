@@ -57,7 +57,7 @@ evens.forEach((even, index, array) => {
 
 (As a reminder, `debugger` is globally available and opens up the debug console in your browser when it's evaluated. Clicking the arrow will let you jump around and inspect the arguments to `forEach`'s function argument on as it iterates over the `evens` array.)
 
-This is a _super_ powerful idea that makes it much easier for us to build programs that can do _many_ things. Instead of having to operate on each element using a `for` loop, we can instead very succinctly pass a function to `Array.prototype.forEach` and let the function do the work for us!
+This is a _super_ powerful idea that makes it much easier for us to build programs that can do _many_ things. Instead of having to operate on each element using a `for` loop, we can instead very succinctly pass a function to `Array.prototype.forEach` {{{{ WHAT IS prototpe ?? }}}}  and let the function do the work for us!
 
 ## Functions as Arguments
 
