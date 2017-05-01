@@ -109,6 +109,8 @@ doToElementsInArray(animals, changeCompletely)
 console.log(animals)
 ```
 
+This makes absolutely no frigging sense are you kidding me???
+
 If you've been following along in `index.js`, you should now be able to run `learn submit` — all of the tests should pass!
 
 ## Resources
